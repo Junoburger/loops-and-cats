@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,9 +31,11 @@
     "sinon": "^2.3.1",
     "sinon-chai": "^2.10.0",
     "yo": "^1.8.5",
-    "zombie": "^5.0.5"
+    "zombie": "^5.0.5",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": "7.9.0"
-  }
+  },
+  "snyk": true
 }
