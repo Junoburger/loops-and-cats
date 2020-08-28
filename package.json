@@ -28,8 +28,8 @@
     "node-inspector": "^1.1.1",
     "sinon": "^2.3.1",
     "sinon-chai": "^2.10.0",
-    "yo": "^1.8.5",
-    "zombie": "^5.0.5"
+    "yo": "^2.0.3",
+    "zombie": "^6.1.0"
   },
   "engines": {
     "node": "7.9.0"
